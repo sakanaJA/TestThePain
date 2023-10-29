@@ -1,0 +1,133 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    overflow:hidden;
+    background: rgba(183,229,244,1);
+    background: -moz-linear-gradient(top, rgba(183,229,244,1) 0%, rgba(224,238,242,1) 54%, rgba(224,238,242,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,229,244,1)), color-stop(54%, rgba(224,238,242,1)), color-stop(100%, rgba(224,238,242,1)));
+    background: -webkit-linear-gradient(top, rgba(183,229,244,1) 0%, rgba(224,238,242,1) 54%, rgba(224,238,242,1) 100%);
+    background: -o-linear-gradient(top, rgba(183,229,244,1) 0%, rgba(224,238,242,1) 54%, rgba(224,238,242,1) 100%);
+    background: -ms-linear-gradient(top, rgba(183,229,244,1) 0%, rgba(224,238,242,1) 54%, rgba(224,238,242,1) 100%);
+    background: linear-gradient(to bottom, rgba(183,229,244,1) 0%, rgba(224,238,242,1) 54%, rgba(224,238,242,1) 100%);
+  }
+  
+  #status {
+    margin: 0;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) ;
+  }
+  
+  #badgeSound {
+    width:60px;
+    height:70px;
+    position: absolute;
+    left:10px;
+    bottom:90px;
+  }
+  
+  .message {
+    position: absolute;
+    opacity: 1;
+    width: 710px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .shadow {
+    color: #5d5a4c;
+    font-family: Arvo;
+    font-weight: bold;
+    text-shadow:
+      -3px -3px 0 #222,
+      3px -3px 0 #222,
+      -3px 3px 0 #222,
+      3px 3px 0 #222,
+      4px 4px 0 #fff,
+      5px 5px 0 #fff,
+      6px 6px 0 #000000,
+      7px 7px 0 #000000;
+    line-height: 1.1em;
+    letter-spacing: 0.1em;
+    /*transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);*/
+    margin:0;
+    text-align: center;
+  }
+  .script {
+    font-family: "Seaweed Script";
+    color: #67C478;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin:0;
+    text-shadow: 2px 2px 0 #FFFFFF
+  }
+  
+  
+  .script:before {
+    content:"";
+    display: block;
+    position: absolute;
+    z-index:-1;
+    top: 50%;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0px solid #fff;
+  }
+  .text1 {
+    font-size: 45px;
+  }
+  .text2 {
+    font-size: 100px;
+  }
+  .text3 {
+    font-size: 80px;
+  }
+  
+  #logo { 
+      position: absolute;
+    right:0px;
+    bottom:0px;
+  }
+  
+  .container {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  canvas {
+    background-color:#000000;
+   
+  }
+  
+  .hideCanvas {
+    opacity:0;
+  }
+  
+  #badge {
+    width:60px;
+    height:70px;
+    position: absolute;
+    left:80px;
+    bottom:90px;
+  }
+  
+  .showCanvas {
+    opacity:1;
+  }
