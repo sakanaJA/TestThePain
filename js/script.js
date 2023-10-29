@@ -53,13 +53,13 @@ function handleTouch() {
 function loadSounds() {
   var manifest = [
   
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/sound1.mp3", id:"clang"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/sound3.mp3", id:"shot"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/mark.mp3", id:"mark"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/pain.mp3", id:"pain"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/fword.mp3", id:"fword"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/stop-that.mp3", id:"stopthat"},
-		{src:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/yikes.mp3", id:"yikes"}
+		{src:"ms/cla.mp2", id:"clang"},
+		{src:"ms/shot.mp3", id:"shot"},
+		{src:"ms/mark.mp3", id:"mark"},
+		{src:"ms/pain.mp3", id:"pain"},
+		{src:"omg.mp3", id:"fword"},
+		{src:"ms/stop.mp3", id:"stopthat"},
+		{src:"ms/yikes.mp3", id:"yikes"}
   ]
   var lq = new createjs.LoadQueue(true);
   lq.installPlugin(createjs.Sound);
